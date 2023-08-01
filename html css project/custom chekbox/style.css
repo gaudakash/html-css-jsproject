@@ -1,0 +1,26 @@
+html {
+    background: lightgray;
+}
+
+body {
+    font-family: 'source sans pro', sans-serif;
+}
+
+.centerd {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.style {
+    border: 1px solid black;
+}
+
+.li {
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+    color: rgb(164, 252, 0);
+}
