@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color change technique</title>
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <!-- internal css start -->
+    <style>
+        body {
+            transition: all 1.ms ease;
+        }
+    </style>
+    <!-- internal css end -->
+</head>
+
+<body>
+    <select onchange="color(this.value)">
+        <option value="orange">Orange</option>
+        <option value="green">Green</option>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="pink">Pink</option>
+    </select>
+    <!-- js start  -->
+    <script>
+        function color(value) {
+            document.body.style.backgroundColor = value;
+        }  
+    </script>
+    <!-- js end  -->
+</body>
+
+</html>
