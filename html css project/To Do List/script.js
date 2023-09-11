@@ -26,11 +26,11 @@ listContainer.addEventListener("click", function (e) {
     }
 }, false);
 
-function saveData(){
+function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-function showTask(){
+function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
